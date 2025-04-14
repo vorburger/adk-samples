@@ -90,11 +90,7 @@ to implement this workflow.
     cd adk-samples/agents/fomc-research
     ```
 
-    Install [Poetry](https://python-poetry.org)
-    If you have not installed poetry before, you can do so by running:
-    ```bash
-    pip install poetry
-    ```
+    Install [Poetry](https://python-poetry.org).
 
     Install the FOMC Research agent requirements:
     ```bash

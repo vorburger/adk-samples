@@ -21,11 +21,11 @@ public class SoftwareBugAssistant {
     // --- Define Constants ---
     private static final String MODEL_NAME = "gemini-2.0-flash";
 
-    // ROOT_AGENT needed for ADK Web UI. 
-    public static BaseAgent ROOT_AGENT = initAgent();
+    // ROOT_AGENT needed for ADK Web UI.
+    public static final BaseAgent ROOT_AGENT = initAgent();
 
     public static BaseAgent initAgent() {
-        // Set up MCP Toolbox connection to Cloud SQL 
+        // Set up MCP Toolbox connection to Cloud SQL
         try {
             String mcpServerUrl = System.getenv("MCP_TOOLBOX_URL");
             if (mcpServerUrl == null || mcpServerUrl.isEmpty()) {

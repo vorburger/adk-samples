@@ -9,6 +9,9 @@ Welcome to the ADK Sample Agents repository! This collection provides ready-to-u
 ## ✨ Getting Started 
 This repo contains ADK sample agents for both **Python** and **Java.** Navigate to the **[Python](python/)** and **[Java](java/)** subfolders to see language-specific setup instructions, and learn more about the available sample agents. 
 
+> [!IMPORTANT]
+> The agents in this repository are built using the **Agent Development Kit (ADK)**. Before you can run any of the samples, you must have the ADK installed. For instructions, please refer to the [**ADK Installation Guide**](https://google.github.io/adk-docs/get-started/installation).
+
 To learn more, check out the [ADK Documentation](https://google.github.io/adk-docs/), and the GitHub repositories for [ADK Python](https://github.com/google/adk-python) and [ADK Java](https://github.com/google/adk-java). 
 
 ## 🌳 Repository Structure
@@ -22,11 +25,15 @@ To learn more, check out the [ADK Documentation](https://google.github.io/adk-do
 │   ├── agents
 │   │   ├── academic-research
 │   │   ├── brand-search-optimization
+│   │   ├── camel
 │   │   ├── customer-service
 │   │   ├── data-science
 │   │   ├── financial-advisor
 │   │   ├── fomc-research
+│   │   ├── gemini-fullstack
+│   │   ├── image-scoring
 │   │   ├── llm-auditor
+│   │   ├── machine-learning-engineering
 │   │   ├── marketing-agency
 │   │   ├── personalized-shopping
 │   │   ├── RAG
